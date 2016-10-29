@@ -16,12 +16,17 @@
           <block type="oled_color" id="165">
             <field name="OBJECT">GREEN</field>
             <next>
-              <block type="robot_delay" id="167" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="174">
-                    <field name="NUM">1500</field>
+              <block type="oled_linerect" id="183">
+                <field name="OBJECT">RECT</field>
+                <next>
+                  <block type="robot_delay" id="167" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="174">
+                        <field name="NUM">1500</field>
+                      </block>
+                    </value>
                   </block>
-                </value>
+                </next>
               </block>
             </next>
           </block>
