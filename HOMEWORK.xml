@@ -12,6 +12,16 @@
             <field name="NUM">0</field>
           </block>
         </value>
+        <next>
+          <block type="led_select" id="133" inline="true">
+            <field name="ACTION">FLASH</field>
+            <value name="LED">
+              <block type="sensor_button" id="144">
+                <field name="OBJECT">UP</field>
+              </block>
+            </value>
+          </block>
+        </next>
       </block>
     </next>
   </block>
