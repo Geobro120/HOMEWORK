@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_color" id="165">
-            <field name="OBJECT">BLACK</field>
+            <field name="OBJECT">GREEN</field>
             <next>
               <block type="robot_delay" id="167" inline="true">
                 <value name="DELAY">
