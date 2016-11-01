@@ -25,6 +25,11 @@
                         <field name="NUM">1500</field>
                       </block>
                     </value>
+                    <next>
+                      <block type="multimedia_playwav" id="73">
+                        <field name="WAV">Bounce</field>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
